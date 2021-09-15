@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="AppTheme" parent="Variables.Colors">
+        <!-- region System UI -->
+        <item name="android:windowContentTransitions" tools:targetApi="lollipop">true</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+        <item name="android:windowBackground">@drawable/window_background</item>
+        <!-- endregion -->
+
+        <!-- region Shapes -->
+        <item name="shapeAppearanceSmallComponent">
+            @style/ShapeAppearance.Baseplate.SmallComponent
+        </item>
+        <item name="shapeAppearanceMediumComponent">
+            @style/ShapeAppearance.Baseplate.MediumComponent
+        </item>
+        <item name="shapeAppearanceLargeComponent">
+            @style/ShapeAppearance.Baseplate.LargeComponent
+        </item>
+        <!-- endregion -->
+
+        <!-- region Default View Styles -->
+        <item name="materialCardViewStyle">@style/Styles.Card</item>
+        <item name="bottomNavigationStyle">@style/Styles.BottomNavigation</item>
+        <item name="materialButtonStyle">@style/Styles.Button.Primary</item>
+        <item name="android:textViewStyle">@style/Styles.Text.Body</item>
+        <item name="switchStyle">@style/Styles.Toggle</item>
+        <item name="checkboxStyle">@style/Styles.Checkbox</item>
+        <item name="radioButtonStyle">@style/Styles.Radio</item>
+        <item name="sliderStyle">@style/Widget.Baseplate.Slider</item>
+        <item name="toolbarStyle">@style/Styles.TopAppBar.Main</item>
+        <item name="appBarLayoutStyle">@style/Styles.TopAppBar.Layout</item>
+        <item name="textInputStyle">@style/Styles.Input.TextInputLayout.Filled</item>
+        <item name="materialAlertDialogTheme">@style/Styles.Dialog.Alert</item>
+        <item name="android:textColor">?attr/colorOnLightRegular</item>
+        <!-- endregion -->
+    </style>
+
+    <style name="AppBaseTheme" parent="AppTheme">
+        <item name="android:windowTranslucentStatus" tools:targetApi="kitkat">false</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:statusBarColor" tools:targetApi="lollipop">?attr/backgroundColor</item>
+    </style>
+
+
+    <style name="DateRangePickerTheme" parent="@style/ThemeOverlay.MaterialComponents.MaterialCalendar.Fullscreen">
+        <item name="colorPrimary">?attr/colorPrimaryFull</item>
+    </style>
+
+</resources>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/toolbarView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="Title"
+                style="@style/Styles.Text.Title1"
+                android:layout_gravity="center|center_vertical"
+                android:layout_marginEnd="0dp"
+                android:layout_marginStart="16dp" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/toolbarButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end|center_vertical"
+                android:layout_marginEnd="16dp"
+                style="@style/Styles.Text.Headline"
+                android:background="?android:attr/selectableItemBackground"
+                android:clickable="true"
+                android:enabled="false"
+                android:focusable="true"
+                android:padding="5dp"
+                android:textColor="@drawable/text_selector"
+                tools:text="Next"
+                />
+
+        </com.google.android.material.appbar.MaterialToolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+</layout>

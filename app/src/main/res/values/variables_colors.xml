@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Variables.Colors" parent="Variables.Typography">
+        <item name="colorPrimaryFull">#FC7900</item>
+        <item name="colorPrimaryShade1">#FDBC80</item>
+        <item name="colorPrimaryShade2">#FFF8F2</item>
+        <item name="colorSecondaryFull">#5A489B</item>
+        <item name="colorAlertWarning">#F9AC27</item>
+        <item name="colorAlertSuccess">#49D13C</item>
+        <item name="colorAlertError">#FF2946</item>
+        <item name="colorGreyInactive">#AEB2B9</item>
+        <item name="colorGreyBorderDivider">#EAEAEA</item>
+        <item name="colorBackground">#F6F6F6</item>
+        <item name="colorSheet">#FFFFFF</item>
+
+        <!-- On Colors -->
+        <item name="colorOnLightRegular">#303133</item>
+        <item name="colorOnLightSecondary">#5F646C</item>
+        <item name="colorOnLightTertiary">#8D939C</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="colorOnSecondary">#FFFFFF</item>
+        <item name="colorOnAlertError">#FFFFFF</item>
+        <item name="colorOnAlertWarning">#000000</item>
+        <item name="colorOnAlertSuccess">#000000</item>
+        <item name="rippleColor">@color/color_primary_full_12</item>
+    </style>
+</resources>

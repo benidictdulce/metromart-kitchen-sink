@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideLineLeft"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_begin="?attr/screenMargin" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideLineRight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_end="?attr/screenMargin" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideLineTop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_begin="50dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnStringWidget"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            style="@style/Styles.Button.Primary"
+            android:text="@string/string_widget"
+            app:layout_constraintEnd_toStartOf="@+id/guideLineRight"
+            app:layout_constraintStart_toEndOf="@+id/guideLineLeft"
+            app:layout_constraintTop_toBottomOf="@+id/guideLineTop" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnInputText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/input_text_widget"
+            android:layout_marginTop="10dp"
+            style="@style/Styles.Button.Secondary"
+            app:layout_constraintEnd_toStartOf="@+id/guideLineRight"
+            app:layout_constraintStart_toEndOf="@+id/guideLineLeft"
+            app:layout_constraintTop_toBottomOf="@+id/btnStringWidget" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

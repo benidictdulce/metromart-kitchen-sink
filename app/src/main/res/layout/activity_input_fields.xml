@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.metromart.atom_design.widget.MetroMartMaterialInputTextLayout
+            android:id="@+id/input_layout_post_code"
+            style="@style/Styles.Input.TextInputLayout.Filled"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:hint="Test Input Fields"
+            app:endIconDrawable="@drawable/ic_question_marks"
+            app:endIconMode="custom"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/et_postcode"
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                android:background="@drawable/edittext_form_background_selector"
+                android:imeOptions="actionNext"
+                android:inputType="textPostalAddress"
+                android:lines="1"
+                android:maxLines="1"
+                android:nextFocusDown="@+id/et_landmark"
+                android:textAppearance="@style/TextAppearance.Fields"
+                android:textColor="@null"
+                tools:text="Test Input Fields" />
+
+        </com.metromart.atom_design.widget.MetroMartMaterialInputTextLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

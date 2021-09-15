@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="pin_normal">#6B767E</color>
+
+    <color name="cerulean_blue">#2C66D5</color>
+    <color name="black">#000000</color>
+    <color name="perano">#9DBCF7</color>
+    <color name="carnation">#FA4856</color>
+    <color name="white">#FFFFFF</color>
+    <color name="nobel">#B2B2B2</color>
+    <color name="athens_gray">#F5F5F6</color>
+    <color name="lima">#72D62A</color>
+    <color name="butterfly_bush">#5A489B</color>
+
+    <color name="limed_spruce">#3C4042</color>
+    <color name="shuttle_gray">#606367</color>
+    <color name="heliotrope">#EA80FB</color>
+    <color name="shark">#202224</color>
+    <color name="manatee">#8D939C</color>
+    <color name="mercury">#E5E5E5</color>
+    <color name="warning">#FFFBF4</color>
+    <color name="sea_buck_thorn">#F9AC27</color>
+    <color name="success">#F6FDF5</color>
+    <color name="apple">#49D13C</color>
+    <color name="alert_info">#27BAF9</color>
+    <color name="shuttle_gray_text">#5F646C</color>
+</resources>

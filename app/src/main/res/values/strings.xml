@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">metromart-kitchen-sink</string>
+
+    <string name="string_widget">String Widget</string>
+    <string name="input_text_widget">Input Text Widget</string>
+
+    <string name="sample_text_spanned">Privacy Policy sample text with spanned Terms and Condition</string>
+</resources>
